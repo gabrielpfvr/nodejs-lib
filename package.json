@@ -1,0 +1,20 @@
+{
+  "name": "url-status",
+  "version": "1.0.0",
+  "description": "Busca por links em arquivos .md e retorna o status de respostas HTTP.",
+  "main": "/.cli.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": ["markdown","URL","HTTP","status"],
+  "author": "Gabriel (https://github.com/gabrielpfvr/)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.0"
+  }
+}
